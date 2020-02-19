@@ -5,7 +5,7 @@ This repo is my answer to the [#SETIDecryptChallenge](https://twitter.com/hashta
 
 
 > #SETI Decrypt Challenge. How2:https://t.co/nMq1zeQfcx, Mssg:https://t.co/URej7kfD79 @AstrobiologyNAI @SETIInstitute 
-> ![ ](https://pbs.twimg.com/media/Cg98-P2WgAAk9DH?format=png)
+> ![ ](https://pbs.twimg.com/media/Cg98-P2WgAAk9DH?format=png&name=small)
 > 
 > &mdash; René Heller (@DrReneHeller) [April 26, 2016](https://twitter.com/DrReneHeller/status/724935476327624704)
 
@@ -16,8 +16,9 @@ Here are the files referenced in the tweet:
 This experiment leads to a paper published in 2018  
 [Decryption of Messages from Extraterrestrial Intelligence Using the Power of Social Media](https://arxiv.org/abs/1706.00653)
 
+My worksheet : [Worksheet.md](Worksheet.md)
 
-And here is my answer to Rene Heller, sent on May 13th 2016:
+And my answer sent on May 13th 2016:
 
 
 > Hi
