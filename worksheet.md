@@ -1,4 +1,8 @@
-## split -b 271763 -d SETI_message.txt page
+# Worksheet
+
+Command used to split the message in blocks of 359*757=271763 characters:
+
+    split -b 271763 -d SETI_message.txt page
 
 The source is a star about 50 light years from Earth. 
 The pulses are in the form of short/long signals and they are received in a very narrow band around an electromagnetic frequency of 452.12919 MHz.
@@ -13,56 +17,72 @@ The pulses are in the form of short/long signals and they are received in a very
 
 7 binary images 359x757
 
-Message Frequency 
-   F = 452.12919 MHz     = 452.12919_10^6 Hz    = 1420.4057 MHz / PI = Fh / Pi
-   L = 66.30681285753 cm = 0.6630681285753 m    =   21.106 cm * PI   = Lh * Pi
-   T = 2.212 ns          = 2.212_10^-9 s
+    F = 452.12919 MHz     = 452.12919_10^6 Hz    = 1420.4057 MHz / PI = Fh / Pi
+    L = 66.30681285753 cm = 0.6630681285753 m    =   21.106 cm * PI   = Lh * Pi
+    T = 2.212 ns          = 2.212_10^-9 s
    
 
         
 _______________________________________________________________________________
-page00
+## page00
     image shape (first row and last column is 1) -> calibration frame ?
     
+![](page00.png)
+    
 _______________________________________________________________________________
-page01
+## page01
     0, 1, 2, 3, ... 756
     757 first binary values (LSB first)
     10bits
     
+![](page01.png)
+    
 _______________________________________________________________________________
-page02
+## page02
     2, 3, 5, 7, 11, 13, 17, 19, 23, ..., 5749
     757 first prime numbers (LSB first)
     13bits
     
+![](page02.png)
+
     
 _______________________________________________________________________________
-page03 - Wave
+## page03 - Wave
       
-Wave_0 = 16368191637088910834159098202685440
-Wave_1 = 11677159761321922952849403009790256654968431476473856
-
-_______________________________________________________________________________
-page04 - Alien
+    Wave_0 = 16368191637088910834159098202685440
+    Wave_1 = 11677159761321922952849403009790256654968431476473856
     
-Alien_0 = 60479561273104168652304174731493376
-Alien_1 = 42037775140758923161949049149211273119409177427443712
-_______________________________________________________________________________
-page05 - Antennas
+![](page03.png)
 
-Antennas_0 = 2468553521351190513386359178720371015680
-Antennas_1 = 2335431952264384665006648365913340213606881670994067456
-_______________________________________________________________________________
-page06 - Planets
-
-Planets_0 = 948909505053876287754040784031183263414353920
-Planets_1 = 1401259171358630776572575392119740616658474880694279974420480
 
 _______________________________________________________________________________
+## page04 - Alien
+    
+    Alien_0 = 60479561273104168652304174731493376
+    Alien_1 = 42037775140758923161949049149211273119409177427443712
+    
+![](page04.png)
+_______________________________________________________________________________
+## page05 - Antennas
+
+    Antennas_0 = 2468553521351190513386359178720371015680
+    Antennas_1 = 2335431952264384665006648365913340213606881670994067456
+
+![](page05.png)
+
+_______________________________________________________________________________
+## page06 - Planets
+
+    Planets_0 = 948909505053876287754040784031183263414353920
+    Planets_1 = 1401259171358630776572575392119740616658474880694279974420480
+        
+![](page06.png)
+
+
+_______________________________________________________________________________
 _______________________________________________________________________________
 
-
+```
 Wave_0     = 2^61      * 5                                * 233 * 239                                                                 * 25494537587
 Wave_1     = 2^120                  * 23            * 163             * 307                                     * 41243               * 185069
 Alien_0    = 2^65          * 7                                                            * 5821        * 16883                       * 2382943
@@ -91,12 +111,10 @@ Wave_0  = 2^61 * 7098571573036345 aL = 0.6630681285753 m = 0.2110611405389 * Pi 
      = 0.7976 * Pi  * Planck Length
      = sqrt(2 * Pi) * Planck Length
      
-     
-_______________________________________________________________________________
-_______________________________________________________________________________
 
+____________________________________________________________________________
+____________________________________________________________________________
 
-    
      
 -- Dimensions : Number of periods * wave length --
     Wave_1 / Wave_0 =     7.134_10^17 * L =              50 ly
@@ -116,23 +134,25 @@ Antennas_1 / Antennas_0 = 9.491_10^14
 Antennas_1 / Wave_1     =       200
  Planets_1 / Wave_1     = 120000000
  
- 
-L           Wavelength                                       m / oscil
-C           Light speed                                      m / s
-F           Message broadcast frequency                      oscil / s (Hz)
-T           Message broadcast period                         s / oscil
-L = C / F
+```
 
-aL          Wavelength                                       aL / oscil
-aC          Light speed in alien units                       aL / aT
-aF          Message broadcast frequency in alien units       oscil / aT
-aL = aC / aF
+| Variable | Description | Unit |
+|----------|-------------|------|
+| `C`        | Light speed                                     | m / s
+| `F`        | Message broadcast frequency                     | oscil / s (Hz)
+| `L`        | Wavelength (`L = C / F`)                        | m / oscil
+| `T`        | Message broadcast period                        | s / oscil
+||| 
+| `aC`         | Light speed in alien units                      | aL / aT
+| `aF`         | Message broadcast frequency in alien units      | oscil / aT
+| `aL`         | Wavelength (`aL = aC / aF`)                     | aL / oscil
+| 
+| `Wave_0`     | Message broadcast wavelength in alien unit of length | aL / oscil      
+| `Wave_1`     | Distance from Earth in alien unit of length | aL
+| `Alien_0`    | Typical alien height in alien unit of length | aL
+| `Alien_1`    | Typical alien lifespan as the distance travelled by the light during this time | aL
+| `Antennas_0` | Antenna size in alien unit of length | aL
+| `Antennas_1` | Duration of the emission  as the distance travelled by the light during this time | aL
+| `Planets_0`  | Distance from their star / Size of their system in alien unit of length | aL
+| `Planets_1`  | Age of their star system as the distance travelled by the light during this time | aL
 
-Wave_0      Message broadcast wavelength in alien unit of length                                aL / oscil      
-Wave_1      Distance from Earth in alien unit of length                                         aL
-Alien_0     Typical alien height in alien unit of length                                        aL
-Alien_1     Typical alien lifespan as the distance travelled by the light during this time      aL
-Antennas_0  Antenna size in alien unit of length                                                aL
-Antennas_1  Duration of the emission  as the distance travelled by the light during this time   aL
-Planets_0   Distance from their star / Size of their system in alien unit of length             aL
-Planets_1   Age of their star system as the distance travelled by the light during this time    aL
