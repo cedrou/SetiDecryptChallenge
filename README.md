@@ -16,7 +16,7 @@ Here are the files referenced in the tweet:
 This experiment leads to a paper published in 2018  
 [Decryption of Messages from Extraterrestrial Intelligence Using the Power of Social Media](https://arxiv.org/abs/1706.00653)
 
-My worksheet : [Worksheet.md](Worksheet.md)
+My worksheet : [Worksheet.md](worksheet.md)
 
 And my answer sent on May 13th 2016:
 
