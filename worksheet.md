@@ -136,23 +136,22 @@ Antennas_1 / Wave_1     =       200
  
 ```
 
-| Variable | Description | Unit |
-|----------|-------------|------|
-| `C`        | Light speed                                     | m / s
-| `F`        | Message broadcast frequency                     | oscil / s (Hz)
-| `L`        | Wavelength (`L = C / F`)                        | m / oscil
-| `T`        | Message broadcast period                        | s / oscil
-||| 
+| Variable     | Description | Unit |
+|--------------|-------------|------|
+| `C`          | Light speed                                     | m / s
+| `F`          | Message broadcast frequency                     | oscil / s (Hz)
+| `L`          | Wavelength (`L = C / F`)                        | m / oscil
+| `T`          | Message broadcast period                        | s / oscil
+|||
 | `aC`         | Light speed in alien units                      | aL / aT
 | `aF`         | Message broadcast frequency in alien units      | oscil / aT
 | `aL`         | Wavelength (`aL = aC / aF`)                     | aL / oscil
-| 
-| `Wave_0`     | Message broadcast wavelength in alien unit of length | aL / oscil      
-| `Wave_1`     | Distance from Earth in alien unit of length | aL
-| `Alien_0`    | Typical alien height in alien unit of length | aL
-| `Alien_1`    | Typical alien lifespan as the distance travelled by the light during this time | aL
-| `Antennas_0` | Antenna size in alien unit of length | aL
+|||
+| `Wave_0`     | Message broadcast wavelength in alien unit of length                              | aL / oscil      
+| `Wave_1`     | Distance from Earth in alien unit of length                                       | aL
+| `Alien_0`    | Typical alien height in alien unit of length                                      | aL
+| `Alien_1`    | Typical alien lifespan as the distance travelled by the light during this time    | aL
+| `Antennas_0` | Antenna size in alien unit of length                                              | aL
 | `Antennas_1` | Duration of the emission  as the distance travelled by the light during this time | aL
-| `Planets_0`  | Distance from their star / Size of their system in alien unit of length | aL
-| `Planets_1`  | Age of their star system as the distance travelled by the light during this time | aL
-
+| `Planets_0`  | Distance from their star / Size of their system in alien unit of length           | aL
+| `Planets_1`  | Age of their star system as the distance travelled by the light during this time  | aL
