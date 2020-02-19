@@ -1,13 +1,20 @@
 # SETI Decrypt Challenge
 
-This repo is my answer to the #SETIDecryptChallenge experiment started by [@DrReneHeller](https://twitter.com/DrReneHeller) On Twitter. 
+This repo is my answer to the [#SETIDecryptChallenge](https://twitter.com/hashtag/SETIDecryptChallenge) experiment started by [@DrReneHeller](https://twitter.com/DrReneHeller) on Twitter. 
 
-All started with this tweet:
 
-<blockquote class="twitter-tweet"><p lang="de" dir="ltr"><a href="https://twitter.com/hashtag/SETI?src=hash&amp;ref_src=twsrc%5Etfw">#SETI</a> Decrypt Challenge. How2:<a href="https://t.co/nMq1zeQfcx">https://t.co/nMq1zeQfcx</a>, Mssg:<a href="https://t.co/URej7kfD79">https://t.co/URej7kfD79</a> @AstrobiologyNAI <a href="https://twitter.com/SETIInstitute?ref_src=twsrc%5Etfw">@SETIInstitute</a> <a href="https://t.co/ppDnFAYdWv">pic.twitter.com/ppDnFAYdWv</a></p>&mdash; René Heller (@DrReneHeller) <a href="https://twitter.com/DrReneHeller/status/724935476327624704?ref_src=twsrc%5Etfw">April 26, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The rules : [SETI_rules](SETI_rules.txt)  
-The message : [SETI_message](SETI_message.txt)
+> #SETI Decrypt Challenge. How2:https://t.co/nMq1zeQfcx, Mssg:https://t.co/URej7kfD79 @AstrobiologyNAI @SETIInstitute 
+> ![ ](https://pic.twitter.com/ppDnFAYdWv)
+> 
+> &mdash; René Heller (@DrReneHeller) [April 26, 2016](https://twitter.com/DrReneHeller/status/724935476327624704)
+
+Here are the files referenced in the tweet:
+- The rules : [How2](SETI_rules.txt)  
+- The message : [Mssg](SETI_message.txt)
+
+This experiment leads to a paper published in 2018  
+[Decryption of Messages from Extraterrestrial Intelligence Using the Power of Social Media](https://arxiv.org/abs/1706.00653)
 
 
 And here is my answer to Rene Heller, sent on May 13th 2016:
