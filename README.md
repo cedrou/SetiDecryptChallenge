@@ -5,7 +5,7 @@ This repo is my answer to the [#SETIDecryptChallenge](https://twitter.com/hashta
 
 
 > #SETI Decrypt Challenge. How2:https://t.co/nMq1zeQfcx, Mssg:https://t.co/URej7kfD79 @AstrobiologyNAI @SETIInstitute 
-> ![ ](https://pic.twitter.com/ppDnFAYdWv)
+> ![ ](https://pbs.twimg.com/media/Cg98-P2WgAAk9DH?format=png)
 > 
 > &mdash; René Heller (@DrReneHeller) [April 26, 2016](https://twitter.com/DrReneHeller/status/724935476327624704)
 
